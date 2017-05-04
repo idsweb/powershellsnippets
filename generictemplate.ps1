@@ -31,13 +31,13 @@ if ($snapin -eq $null)
     Add-PSSnapin "Microsoft.SharePoint.Powershell"
 }
 
+write-host Script started: (Get-Date -format t) -ForegroundColor Yellow
+
 # Setup global objects
 # --------------------
 
 # Script
 # ------
-
-write-host Script started: (Get-Date -format t) -ForegroundColor Yellow
 
 write-host Script finished: (Get-Date -format t) -ForegroundColor Yellow
 
