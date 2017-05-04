@@ -35,7 +35,11 @@ write-host Script started: (Get-Date -format t) -ForegroundColor Yellow
 
 # Setup global objects
 # --------------------
-
+ if(-not $someObjectNeededOrCondition){
+    Write-Host "Something bad happened - bailing out" -ForegroundColor Red
+    write-host Script finished: (Get-Date -format t) -ForegroundColor Yellow
+    break
+} 
 # Script
 # ------
 
