@@ -10,3 +10,5 @@ Scripts behave differently in ISE than they do in the interactive pain or consol
 ###Dot source gotchas
 1. If you run a script from the ISE with the above line to include the script then you will get an error (assuming you are not in the directory the script is in). If however you CD into the script directory and run the script it should find the file.
 2. Once a scropt with functions has loaded in ISE the functions stay available unless you close the window. 
+
+[Tips on formatting](https://blogs.technet.microsoft.com/pstips/2014/06/17/powershell-scripting-best-practices/)
